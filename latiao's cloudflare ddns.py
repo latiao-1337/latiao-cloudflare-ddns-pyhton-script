@@ -1,14 +1,11 @@
-
 import requests
-
 
 while True:
             try:
-    EMAIL = "EMAIL"
-    API_KEY = "API_KEY"
-    DOMAIN = "DOMAIN"
-    SUBDOMAIN_IPV4 = "SUBDOMAIN_IPV4"
-    SUBDOMAIN_IPV6 = "SUBDOMAIN_IPV6"
+                EMAIL = "EMAIL@outlook.com"
+                API_KEY = "API_KEY"
+                DOMAIN = "DOMAIN.top"
+                SUBDOMAIN = "SUBDOMAIN"
 
                 class CloudflareAPI:
                     def __init__(self, email, api_key):
